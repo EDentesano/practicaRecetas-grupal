@@ -5,17 +5,35 @@
 
 .card-img {
   transition: transform 300ms ease;
-  p{
+  p {
     transition: 300ms;
   }
- 
 }
 
 .card-img:hover {
   transform: scale(1.05);
-  
-  p{
+    cursor: pointer;
+  p {
     font-weight: bolder;
   }
+}
+.item-galeria{
+       overflow: hidden;
+}
+.img-scale{
+    transition: 500ms;
+}
 
+.img-scale:hover{
+    transform: scale(1.2);
+}
+
+.itemOpacidad {
+  opacity: 0.5;
+  transition: opacity 200ms ease-in-out;
+}
+
+.itemOpacidad:hover {
+  opacity: 1;
+  cursor: pointer;
 }
