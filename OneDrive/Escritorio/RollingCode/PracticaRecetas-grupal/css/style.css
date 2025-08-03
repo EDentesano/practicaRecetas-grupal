@@ -61,3 +61,19 @@ main {
     transform: scale(1);
   }
 }
+
+.fit-img{
+    object-fit: cover;
+}
+
+.image-container{
+  overflow: hidden;
+}
+
+.img-transition{
+   transition: transform 0.3s ease;
+}
+
+.img-transition:hover {
+  transform: scale(1.05);
+}
