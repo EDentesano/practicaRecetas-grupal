@@ -3,6 +3,8 @@
   overflow: hidden;
 }
 
+
+
 .card-img {
   transition: transform 300ms ease;
   p {
@@ -36,4 +38,18 @@
 .itemOpacidad:hover {
   opacity: 1;
   cursor: pointer;
+}
+.parrafoEscalado {
+  animation: escalar 3s ease infinite;
+}
+@keyframes escalar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
