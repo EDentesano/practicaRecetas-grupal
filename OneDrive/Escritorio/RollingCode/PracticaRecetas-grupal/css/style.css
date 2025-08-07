@@ -62,18 +62,41 @@ main {
   }
 }
 
-.fit-img{
-    object-fit: cover;
+.fit-img {
+  object-fit: cover;
 }
 
-.image-container{
+.image-container {
   overflow: hidden;
 }
 
-.img-transition{
-   transition: transform 0.3s ease;
+.img-transition {
+  transition: transform 0.3s ease;
 }
 
 .img-transition:hover {
   transform: scale(1.05);
+}
+
+.fit-img-details {
+  /*dispositivos medios */
+  height: 214.39px;
+}
+
+@media (max-width: 767px) {
+  .fit-img-details {
+    height: 364.8px;
+  }
+}
+
+@media (width >= 992px) {
+  .fit-img-details {
+    height: 294.4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fit-img-details {
+    height: 414.39px;
+  }
 }
